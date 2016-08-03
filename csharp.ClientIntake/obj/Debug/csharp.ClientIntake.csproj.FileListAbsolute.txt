@@ -1,0 +1,9 @@
+c:\users\jemcg\documents\visual studio 2015\Projects\csharp.ClientIntake\csharp.ClientIntake\bin\Debug\csharp.ClientIntake.exe.config
+C:\Users\jemcg\documents\visual studio 2015\Projects\csharp.ClientIntake\csharp.ClientIntake\bin\Debug\csharp.ClientIntake.exe
+C:\Users\jemcg\documents\visual studio 2015\Projects\csharp.ClientIntake\csharp.ClientIntake\bin\Debug\csharp.ClientIntake.pdb
+C:\Users\jemcg\documents\visual studio 2015\Projects\csharp.ClientIntake\csharp.ClientIntake\obj\Debug\csharp.ClientIntake.csprojResolveAssemblyReference.cache
+C:\Users\jemcg\documents\visual studio 2015\Projects\csharp.ClientIntake\csharp.ClientIntake\obj\Debug\csharp.ClientIntake.IntakeForm.resources
+C:\Users\jemcg\documents\visual studio 2015\Projects\csharp.ClientIntake\csharp.ClientIntake\obj\Debug\csharp.ClientIntake.Properties.Resources.resources
+C:\Users\jemcg\documents\visual studio 2015\Projects\csharp.ClientIntake\csharp.ClientIntake\obj\Debug\csharp.ClientIntake.csproj.GenerateResource.Cache
+C:\Users\jemcg\documents\visual studio 2015\Projects\csharp.ClientIntake\csharp.ClientIntake\obj\Debug\csharp.ClientIntake.exe
+C:\Users\jemcg\documents\visual studio 2015\Projects\csharp.ClientIntake\csharp.ClientIntake\obj\Debug\csharp.ClientIntake.pdb
