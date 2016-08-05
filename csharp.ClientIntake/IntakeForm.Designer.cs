@@ -28,19 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.firstNameTxt = new System.Windows.Forms.TextBox();
+            this.lastNameTxt = new System.Windows.Forms.TextBox();
+            this.ageTxt = new System.Windows.Forms.TextBox();
+            this.prefNameTxt = new System.Windows.Forms.TextBox();
+            this.genderTxt = new System.Windows.Forms.TextBox();
+            this.schoolNameTxt = new System.Windows.Forms.TextBox();
+            this.gradeTxt = new System.Windows.Forms.TextBox();
+            this.parentFirstNameTxt = new System.Windows.Forms.TextBox();
+            this.parentLastNameTxt = new System.Windows.Forms.TextBox();
+            this.parentRelationshipTxt = new System.Windows.Forms.TextBox();
+            this.ParentAddressCityTxt = new System.Windows.Forms.TextBox();
+            this.parentAddressStateTxt = new System.Windows.Forms.TextBox();
+            this.parentAddressZipTxt = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -54,110 +54,129 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.allergiesTxt = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.label15 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.parentEmailTxt = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.label17 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.parentSecondaryPhoneTxt = new System.Windows.Forms.TextBox();
+            this.parentPrimaryPhoneTxt = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.parentAddress1Txt = new System.Windows.Forms.TextBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.emergPhoneTxt = new System.Windows.Forms.TextBox();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.emergRelationshipTxt = new System.Windows.Forms.TextBox();
+            this.emergLastNameTxt = new System.Windows.Forms.TextBox();
+            this.emergFirstNameTxt = new System.Windows.Forms.TextBox();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.groupSSTChk = new System.Windows.Forms.CheckBox();
+            this.groupGWChk = new System.Windows.Forms.CheckBox();
+            this.groupKTChk = new System.Windows.Forms.CheckBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.parentAddress2Txt = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
-            // textBox1
+            // firstNameTxt
             // 
-            this.textBox1.Location = new System.Drawing.Point(3, 36);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(171, 20);
-            this.textBox1.TabIndex = 0;
+            this.firstNameTxt.Location = new System.Drawing.Point(3, 36);
+            this.firstNameTxt.Name = "firstNameTxt";
+            this.firstNameTxt.Size = new System.Drawing.Size(171, 20);
+            this.firstNameTxt.TabIndex = 0;
             // 
-            // textBox2
+            // lastNameTxt
             // 
-            this.textBox2.Location = new System.Drawing.Point(178, 36);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(171, 20);
-            this.textBox2.TabIndex = 1;
+            this.lastNameTxt.Location = new System.Drawing.Point(178, 36);
+            this.lastNameTxt.Name = "lastNameTxt";
+            this.lastNameTxt.Size = new System.Drawing.Size(171, 20);
+            this.lastNameTxt.TabIndex = 1;
             // 
-            // textBox3
+            // ageTxt
             // 
-            this.textBox3.Location = new System.Drawing.Point(360, 36);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(38, 20);
-            this.textBox3.TabIndex = 2;
+            this.ageTxt.Location = new System.Drawing.Point(360, 36);
+            this.ageTxt.Name = "ageTxt";
+            this.ageTxt.Size = new System.Drawing.Size(38, 20);
+            this.ageTxt.TabIndex = 5;
             // 
-            // textBox4
+            // prefNameTxt
             // 
-            this.textBox4.Location = new System.Drawing.Point(3, 75);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(348, 20);
-            this.textBox4.TabIndex = 3;
+            this.prefNameTxt.Location = new System.Drawing.Point(3, 75);
+            this.prefNameTxt.Name = "prefNameTxt";
+            this.prefNameTxt.Size = new System.Drawing.Size(348, 20);
+            this.prefNameTxt.TabIndex = 2;
             // 
-            // textBox5
+            // genderTxt
             // 
-            this.textBox5.Location = new System.Drawing.Point(360, 75);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(95, 20);
-            this.textBox5.TabIndex = 4;
+            this.genderTxt.Location = new System.Drawing.Point(360, 75);
+            this.genderTxt.Name = "genderTxt";
+            this.genderTxt.Size = new System.Drawing.Size(95, 20);
+            this.genderTxt.TabIndex = 6;
             // 
-            // textBox6
+            // schoolNameTxt
             // 
-            this.textBox6.Location = new System.Drawing.Point(3, 114);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(348, 20);
-            this.textBox6.TabIndex = 5;
+            this.schoolNameTxt.Location = new System.Drawing.Point(3, 114);
+            this.schoolNameTxt.Name = "schoolNameTxt";
+            this.schoolNameTxt.Size = new System.Drawing.Size(348, 20);
+            this.schoolNameTxt.TabIndex = 3;
             // 
-            // textBox7
+            // gradeTxt
             // 
-            this.textBox7.Location = new System.Drawing.Point(360, 114);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(38, 20);
-            this.textBox7.TabIndex = 6;
+            this.gradeTxt.Location = new System.Drawing.Point(360, 114);
+            this.gradeTxt.Name = "gradeTxt";
+            this.gradeTxt.Size = new System.Drawing.Size(38, 20);
+            this.gradeTxt.TabIndex = 7;
             // 
-            // textBox9
+            // parentFirstNameTxt
             // 
-            this.textBox9.Location = new System.Drawing.Point(6, 42);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(171, 20);
-            this.textBox9.TabIndex = 8;
+            this.parentFirstNameTxt.Location = new System.Drawing.Point(6, 42);
+            this.parentFirstNameTxt.Name = "parentFirstNameTxt";
+            this.parentFirstNameTxt.Size = new System.Drawing.Size(171, 20);
+            this.parentFirstNameTxt.TabIndex = 8;
             // 
-            // textBox10
+            // parentLastNameTxt
             // 
-            this.textBox10.Location = new System.Drawing.Point(183, 42);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(171, 20);
-            this.textBox10.TabIndex = 9;
+            this.parentLastNameTxt.Location = new System.Drawing.Point(183, 42);
+            this.parentLastNameTxt.Name = "parentLastNameTxt";
+            this.parentLastNameTxt.Size = new System.Drawing.Size(171, 20);
+            this.parentLastNameTxt.TabIndex = 9;
             // 
-            // textBox11
+            // parentRelationshipTxt
             // 
-            this.textBox11.Location = new System.Drawing.Point(6, 81);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(348, 20);
-            this.textBox11.TabIndex = 10;
+            this.parentRelationshipTxt.Location = new System.Drawing.Point(6, 81);
+            this.parentRelationshipTxt.Name = "parentRelationshipTxt";
+            this.parentRelationshipTxt.Size = new System.Drawing.Size(348, 20);
+            this.parentRelationshipTxt.TabIndex = 10;
             // 
-            // textBox16
+            // ParentAddressCityTxt
             // 
-            this.textBox16.Location = new System.Drawing.Point(8, 158);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(171, 20);
-            this.textBox16.TabIndex = 15;
+            this.ParentAddressCityTxt.Location = new System.Drawing.Point(8, 197);
+            this.ParentAddressCityTxt.Name = "ParentAddressCityTxt";
+            this.ParentAddressCityTxt.Size = new System.Drawing.Size(171, 20);
+            this.ParentAddressCityTxt.TabIndex = 13;
             // 
-            // textBox17
+            // parentAddressStateTxt
             // 
-            this.textBox17.Location = new System.Drawing.Point(185, 158);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(171, 20);
-            this.textBox17.TabIndex = 16;
+            this.parentAddressStateTxt.Location = new System.Drawing.Point(185, 197);
+            this.parentAddressStateTxt.Name = "parentAddressStateTxt";
+            this.parentAddressStateTxt.Size = new System.Drawing.Size(171, 20);
+            this.parentAddressStateTxt.TabIndex = 14;
             // 
-            // textBox18
+            // parentAddressZipTxt
             // 
-            this.textBox18.Location = new System.Drawing.Point(267, 184);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(87, 20);
-            this.textBox18.TabIndex = 17;
+            this.parentAddressZipTxt.Location = new System.Drawing.Point(371, 197);
+            this.parentAddressZipTxt.Name = "parentAddressZipTxt";
+            this.parentAddressZipTxt.Size = new System.Drawing.Size(87, 20);
+            this.parentAddressZipTxt.TabIndex = 15;
             // 
             // label1
             // 
@@ -191,9 +210,9 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(3, 98);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(46, 13);
+            this.label4.Size = new System.Drawing.Size(71, 13);
             this.label4.TabIndex = 27;
-            this.label4.Text = "Allergies";
+            this.label4.Text = "School Name";
             // 
             // label6
             // 
@@ -225,7 +244,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(180, 142);
+            this.label9.Location = new System.Drawing.Point(180, 181);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(32, 13);
             this.label9.TabIndex = 33;
@@ -234,7 +253,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(6, 142);
+            this.label10.Location = new System.Drawing.Point(6, 181);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(24, 13);
             this.label10.TabIndex = 32;
@@ -269,6 +288,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label18);
+            this.groupBox1.Controls.Add(this.allergiesTxt);
             this.groupBox1.Controls.Add(this.label13);
             this.groupBox1.Controls.Add(this.label12);
             this.groupBox1.Controls.Add(this.label11);
@@ -276,73 +297,82 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.textBox7);
-            this.groupBox1.Controls.Add(this.textBox6);
-            this.groupBox1.Controls.Add(this.textBox5);
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.gradeTxt);
+            this.groupBox1.Controls.Add(this.schoolNameTxt);
+            this.groupBox1.Controls.Add(this.genderTxt);
+            this.groupBox1.Controls.Add(this.prefNameTxt);
+            this.groupBox1.Controls.Add(this.ageTxt);
+            this.groupBox1.Controls.Add(this.lastNameTxt);
+            this.groupBox1.Controls.Add(this.firstNameTxt);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(474, 147);
+            this.groupBox1.Size = new System.Drawing.Size(477, 184);
             this.groupBox1.TabIndex = 37;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Client Information";
             // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(3, 137);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(46, 13);
+            this.label18.TabIndex = 38;
+            this.label18.Text = "Allergies";
+            // 
+            // allergiesTxt
+            // 
+            this.allergiesTxt.Location = new System.Drawing.Point(3, 153);
+            this.allergiesTxt.Name = "allergiesTxt";
+            this.allergiesTxt.Size = new System.Drawing.Size(348, 20);
+            this.allergiesTxt.TabIndex = 4;
+            // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.label19);
+            this.groupBox2.Controls.Add(this.parentAddress2Txt);
             this.groupBox2.Controls.Add(this.label17);
-            this.groupBox2.Controls.Add(this.textBox13);
+            this.groupBox2.Controls.Add(this.parentEmailTxt);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.label16);
-            this.groupBox2.Controls.Add(this.textBox8);
-            this.groupBox2.Controls.Add(this.textBox12);
+            this.groupBox2.Controls.Add(this.parentSecondaryPhoneTxt);
+            this.groupBox2.Controls.Add(this.parentPrimaryPhoneTxt);
             this.groupBox2.Controls.Add(this.label15);
             this.groupBox2.Controls.Add(this.label14);
-            this.groupBox2.Controls.Add(this.textBox22);
+            this.groupBox2.Controls.Add(this.parentAddress1Txt);
             this.groupBox2.Controls.Add(this.label9);
             this.groupBox2.Controls.Add(this.label8);
             this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Controls.Add(this.label10);
             this.groupBox2.Controls.Add(this.label7);
-            this.groupBox2.Controls.Add(this.textBox11);
-            this.groupBox2.Controls.Add(this.textBox10);
-            this.groupBox2.Controls.Add(this.textBox9);
-            this.groupBox2.Controls.Add(this.textBox18);
-            this.groupBox2.Controls.Add(this.textBox16);
-            this.groupBox2.Controls.Add(this.textBox17);
-            this.groupBox2.Location = new System.Drawing.Point(15, 165);
+            this.groupBox2.Controls.Add(this.parentRelationshipTxt);
+            this.groupBox2.Controls.Add(this.parentLastNameTxt);
+            this.groupBox2.Controls.Add(this.parentFirstNameTxt);
+            this.groupBox2.Controls.Add(this.parentAddressZipTxt);
+            this.groupBox2.Controls.Add(this.ParentAddressCityTxt);
+            this.groupBox2.Controls.Add(this.parentAddressStateTxt);
+            this.groupBox2.Location = new System.Drawing.Point(12, 202);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(690, 217);
+            this.groupBox2.Size = new System.Drawing.Size(644, 264);
             this.groupBox2.TabIndex = 38;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Parent/Guardian Information";
             // 
-            // label14
+            // label17
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(6, 103);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(45, 13);
-            this.label14.TabIndex = 35;
-            this.label14.Text = "Address";
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(366, 104);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(32, 13);
+            this.label17.TabIndex = 42;
+            this.label17.Text = "Email";
             // 
-            // textBox22
+            // parentEmailTxt
             // 
-            this.textBox22.Location = new System.Drawing.Point(6, 119);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(348, 20);
-            this.textBox22.TabIndex = 34;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(239, 187);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(22, 13);
-            this.label15.TabIndex = 36;
-            this.label15.Text = "Zip";
+            this.parentEmailTxt.Location = new System.Drawing.Point(369, 120);
+            this.parentEmailTxt.Name = "parentEmailTxt";
+            this.parentEmailTxt.Size = new System.Drawing.Size(256, 20);
+            this.parentEmailTxt.TabIndex = 18;
             // 
             // label5
             // 
@@ -362,41 +392,191 @@
             this.label16.TabIndex = 39;
             this.label16.Text = "Primary Phone";
             // 
-            // textBox8
+            // parentSecondaryPhoneTxt
             // 
-            this.textBox8.Location = new System.Drawing.Point(369, 81);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(168, 20);
-            this.textBox8.TabIndex = 38;
+            this.parentSecondaryPhoneTxt.Location = new System.Drawing.Point(369, 81);
+            this.parentSecondaryPhoneTxt.Name = "parentSecondaryPhoneTxt";
+            this.parentSecondaryPhoneTxt.Size = new System.Drawing.Size(168, 20);
+            this.parentSecondaryPhoneTxt.TabIndex = 17;
             // 
-            // textBox12
+            // parentPrimaryPhoneTxt
             // 
-            this.textBox12.Location = new System.Drawing.Point(366, 42);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(171, 20);
-            this.textBox12.TabIndex = 37;
+            this.parentPrimaryPhoneTxt.Location = new System.Drawing.Point(366, 42);
+            this.parentPrimaryPhoneTxt.Name = "parentPrimaryPhoneTxt";
+            this.parentPrimaryPhoneTxt.Size = new System.Drawing.Size(171, 20);
+            this.parentPrimaryPhoneTxt.TabIndex = 16;
             // 
-            // label17
+            // label15
             // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(366, 104);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(32, 13);
-            this.label17.TabIndex = 42;
-            this.label17.Text = "Email";
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(371, 182);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(22, 13);
+            this.label15.TabIndex = 36;
+            this.label15.Text = "Zip";
             // 
-            // textBox13
+            // label14
             // 
-            this.textBox13.Location = new System.Drawing.Point(369, 120);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(256, 20);
-            this.textBox13.TabIndex = 41;
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(6, 103);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(77, 13);
+            this.label14.TabIndex = 35;
+            this.label14.Text = "Address Line 1";
+            // 
+            // parentAddress1Txt
+            // 
+            this.parentAddress1Txt.Location = new System.Drawing.Point(6, 119);
+            this.parentAddress1Txt.Name = "parentAddress1Txt";
+            this.parentAddress1Txt.Size = new System.Drawing.Size(348, 20);
+            this.parentAddress1Txt.TabIndex = 11;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.label21);
+            this.groupBox3.Controls.Add(this.emergPhoneTxt);
+            this.groupBox3.Controls.Add(this.label25);
+            this.groupBox3.Controls.Add(this.label26);
+            this.groupBox3.Controls.Add(this.label28);
+            this.groupBox3.Controls.Add(this.emergRelationshipTxt);
+            this.groupBox3.Controls.Add(this.emergLastNameTxt);
+            this.groupBox3.Controls.Add(this.emergFirstNameTxt);
+            this.groupBox3.Location = new System.Drawing.Point(12, 472);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(644, 121);
+            this.groupBox3.TabIndex = 43;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Emergency Contact Information";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(366, 26);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(75, 13);
+            this.label21.TabIndex = 39;
+            this.label21.Text = "Primary Phone";
+            // 
+            // emergPhoneTxt
+            // 
+            this.emergPhoneTxt.Location = new System.Drawing.Point(366, 42);
+            this.emergPhoneTxt.Name = "emergPhoneTxt";
+            this.emergPhoneTxt.Size = new System.Drawing.Size(171, 20);
+            this.emergPhoneTxt.TabIndex = 21;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(6, 65);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(106, 13);
+            this.label25.TabIndex = 31;
+            this.label25.Text = "Relationship to Client";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(180, 26);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(58, 13);
+            this.label26.TabIndex = 30;
+            this.label26.Text = "Last Name";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(6, 26);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(57, 13);
+            this.label28.TabIndex = 29;
+            this.label28.Text = "First Name";
+            // 
+            // emergRelationshipTxt
+            // 
+            this.emergRelationshipTxt.Location = new System.Drawing.Point(6, 81);
+            this.emergRelationshipTxt.Name = "emergRelationshipTxt";
+            this.emergRelationshipTxt.Size = new System.Drawing.Size(348, 20);
+            this.emergRelationshipTxt.TabIndex = 22;
+            // 
+            // emergLastNameTxt
+            // 
+            this.emergLastNameTxt.Location = new System.Drawing.Point(183, 42);
+            this.emergLastNameTxt.Name = "emergLastNameTxt";
+            this.emergLastNameTxt.Size = new System.Drawing.Size(171, 20);
+            this.emergLastNameTxt.TabIndex = 20;
+            // 
+            // emergFirstNameTxt
+            // 
+            this.emergFirstNameTxt.Location = new System.Drawing.Point(6, 42);
+            this.emergFirstNameTxt.Name = "emergFirstNameTxt";
+            this.emergFirstNameTxt.Size = new System.Drawing.Size(171, 20);
+            this.emergFirstNameTxt.TabIndex = 19;
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.groupKTChk);
+            this.groupBox4.Controls.Add(this.groupSSTChk);
+            this.groupBox4.Controls.Add(this.groupGWChk);
+            this.groupBox4.Location = new System.Drawing.Point(12, 599);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(643, 75);
+            this.groupBox4.TabIndex = 44;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Interested Groups";
+            // 
+            // groupSSTChk
+            // 
+            this.groupSSTChk.AutoSize = true;
+            this.groupSSTChk.Location = new System.Drawing.Point(9, 20);
+            this.groupSSTChk.Name = "groupSSTChk";
+            this.groupSSTChk.Size = new System.Drawing.Size(139, 17);
+            this.groupSSTChk.TabIndex = 23;
+            this.groupSSTChk.Text = "South Seattle Tuesdays";
+            this.groupSSTChk.UseVisualStyleBackColor = true;
+            // 
+            // groupGWChk
+            // 
+            this.groupGWChk.AutoSize = true;
+            this.groupGWChk.Location = new System.Drawing.Point(154, 20);
+            this.groupGWChk.Name = "groupGWChk";
+            this.groupGWChk.Size = new System.Drawing.Size(146, 17);
+            this.groupGWChk.TabIndex = 24;
+            this.groupGWChk.Text = "Greenwood Wednesdays";
+            this.groupGWChk.UseVisualStyleBackColor = true;
+            // 
+            // groupKTChk
+            // 
+            this.groupKTChk.AutoSize = true;
+            this.groupKTChk.Location = new System.Drawing.Point(306, 20);
+            this.groupKTChk.Name = "groupKTChk";
+            this.groupKTChk.Size = new System.Drawing.Size(116, 17);
+            this.groupKTChk.TabIndex = 25;
+            this.groupKTChk.Text = "Kirkland Thursdays";
+            this.groupKTChk.UseVisualStyleBackColor = true;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(6, 142);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(77, 13);
+            this.label19.TabIndex = 44;
+            this.label19.Text = "Address Line 2";
+            // 
+            // parentAddress2Txt
+            // 
+            this.parentAddress2Txt.Location = new System.Drawing.Point(6, 158);
+            this.parentAddress2Txt.Name = "parentAddress2Txt";
+            this.parentAddress2Txt.Size = new System.Drawing.Size(348, 20);
+            this.parentAddress2Txt.TabIndex = 12;
             // 
             // IntakeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(717, 567);
+            this.ClientSize = new System.Drawing.Size(812, 753);
+            this.Controls.Add(this.groupBox4);
+            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "IntakeForm";
@@ -405,25 +585,29 @@
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.TextBox textBox18;
+        private System.Windows.Forms.TextBox firstNameTxt;
+        private System.Windows.Forms.TextBox lastNameTxt;
+        private System.Windows.Forms.TextBox ageTxt;
+        private System.Windows.Forms.TextBox prefNameTxt;
+        private System.Windows.Forms.TextBox genderTxt;
+        private System.Windows.Forms.TextBox schoolNameTxt;
+        private System.Windows.Forms.TextBox gradeTxt;
+        private System.Windows.Forms.TextBox parentFirstNameTxt;
+        private System.Windows.Forms.TextBox parentLastNameTxt;
+        private System.Windows.Forms.TextBox parentRelationshipTxt;
+        private System.Windows.Forms.TextBox ParentAddressCityTxt;
+        private System.Windows.Forms.TextBox parentAddressStateTxt;
+        private System.Windows.Forms.TextBox parentAddressZipTxt;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -439,14 +623,31 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox parentEmailTxt;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox parentSecondaryPhoneTxt;
+        private System.Windows.Forms.TextBox parentPrimaryPhoneTxt;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox textBox22;
+        private System.Windows.Forms.TextBox parentAddress1Txt;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.TextBox allergiesTxt;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.TextBox emergPhoneTxt;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.TextBox emergRelationshipTxt;
+        private System.Windows.Forms.TextBox emergLastNameTxt;
+        private System.Windows.Forms.TextBox emergFirstNameTxt;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.CheckBox groupSSTChk;
+        private System.Windows.Forms.CheckBox groupGWChk;
+        private System.Windows.Forms.CheckBox groupKTChk;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.TextBox parentAddress2Txt;
     }
 }
 
