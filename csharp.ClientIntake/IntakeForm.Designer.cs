@@ -81,6 +81,8 @@
             this.groupKTChk = new System.Windows.Forms.CheckBox();
             this.label19 = new System.Windows.Forms.Label();
             this.parentAddress2Txt = new System.Windows.Forms.TextBox();
+            this.saveBtn = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -570,11 +572,33 @@
             this.parentAddress2Txt.Size = new System.Drawing.Size(348, 20);
             this.parentAddress2Txt.TabIndex = 12;
             // 
+            // saveBtn
+            // 
+            this.saveBtn.Location = new System.Drawing.Point(12, 717);
+            this.saveBtn.Name = "saveBtn";
+            this.saveBtn.Size = new System.Drawing.Size(84, 24);
+            this.saveBtn.TabIndex = 45;
+            this.saveBtn.Text = "Save";
+            this.saveBtn.UseVisualStyleBackColor = true;
+            this.saveBtn.Click += new System.EventHandler(this.saveBtn_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(107, 717);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(84, 24);
+            this.button1.TabIndex = 46;
+            this.button1.Text = "Load";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // IntakeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(812, 753);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.saveBtn);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
@@ -648,6 +672,8 @@
         private System.Windows.Forms.CheckBox groupKTChk;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.TextBox parentAddress2Txt;
+        private System.Windows.Forms.Button saveBtn;
+        private System.Windows.Forms.Button button1;
     }
 }
 

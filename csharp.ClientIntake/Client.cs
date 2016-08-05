@@ -6,38 +6,40 @@ using System.Threading.Tasks;
 
 namespace csharp.ClientIntake
 {
-    class Client
+    [Serializable()]
+    public class Client
     {
 
         // Client Information
         private string firstName;
         private string lastName;
         private string preferredName;
-        private int age;
+        private string age;
         private string preferredGender;
         private string schoolName;
-        private int schoolGrade;
+        private string schoolGrade;
         private string allergies;
 
         // Parent or guardian information
         private string parentFirstName;
         private string parentLastName;
         private string parentRelation;
-        private string parentAddress;
+        private string parentAddress1;
+        private string parentAddress2;
         private string parentCity;
         private string parentState;
         private string parentZipCode;
-        private int parentPrimaryPhone;
-        private int parentSecondaryPhone;
+        private string parentPrimaryPhone;
+        private string parentSecondaryPhone;
         private string parentEmail;
 
         // Emergency Contact Information
         private string emergencyName;
         private string emergencyRelation;
-        private int emergencyPhone;
+        private string emergencyPhone;
 
         // Groups interested in
-        private bool goupSST; // South Seattle Tuesdays
+        private bool groupSST; // South Seattle Tuesdays
         private bool groupGW; // Greenwood Wednesdays
         private bool groupKTH; // Kirkland Thursdays
 
@@ -80,7 +82,7 @@ namespace csharp.ClientIntake
             }
         }
 
-        public int Age
+        public string Age
         {
             get
             {
@@ -132,7 +134,7 @@ namespace csharp.ClientIntake
             }
         }
 
-        public int SchoolGrade
+        public string SchoolGrade
         {
             get
             {
@@ -197,16 +199,16 @@ namespace csharp.ClientIntake
             }
         }
 
-        public string ParentAddress
+        public string ParentAddress1
         {
             get
             {
-                return parentAddress;
+                return parentAddress1;
             }
 
             set
             {
-                parentAddress = value;
+                parentAddress1 = value;
             }
         }
 
@@ -249,7 +251,7 @@ namespace csharp.ClientIntake
             }
         }
 
-        public int ParentPrimaryPhone
+        public string ParentPrimaryPhone
         {
             get
             {
@@ -262,7 +264,7 @@ namespace csharp.ClientIntake
             }
         }
 
-        public int ParentSecondaryPhone
+        public string ParentSecondaryPhone
         {
             get
             {
@@ -314,7 +316,7 @@ namespace csharp.ClientIntake
             }
         }
 
-        public int EmergencyPhone
+        public string EmergencyPhone
         {
             get
             {
@@ -327,16 +329,16 @@ namespace csharp.ClientIntake
             }
         }
 
-        public bool GoupSST
+        public bool GroupSST
         {
             get
             {
-                return goupSST;
+                return groupSST;
             }
 
             set
             {
-                goupSST = value;
+                groupSST = value;
             }
         }
 
@@ -428,6 +430,19 @@ namespace csharp.ClientIntake
             set
             {
                 additionalInformation = value;
+            }
+        }
+
+        public string ParentAddress2
+        {
+            get
+            {
+                return parentAddress2;
+            }
+
+            set
+            {
+                parentAddress2 = value;
             }
         }
     }
