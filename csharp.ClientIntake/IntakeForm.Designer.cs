@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(IntakeForm));
             this.firstNameTxt = new System.Windows.Forms.TextBox();
             this.lastNameTxt = new System.Windows.Forms.TextBox();
             this.ageTxt = new System.Windows.Forms.TextBox();
@@ -57,6 +58,8 @@
             this.label18 = new System.Windows.Forms.Label();
             this.allergiesTxt = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.parentAddress2Txt = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.parentEmailTxt = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -76,17 +79,32 @@
             this.emergLastNameTxt = new System.Windows.Forms.TextBox();
             this.emergFirstNameTxt = new System.Windows.Forms.TextBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.groupKTChk = new System.Windows.Forms.CheckBox();
             this.groupSSTChk = new System.Windows.Forms.CheckBox();
             this.groupGWChk = new System.Windows.Forms.CheckBox();
-            this.groupKTChk = new System.Windows.Forms.CheckBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.parentAddress2Txt = new System.Windows.Forms.TextBox();
-            this.saveBtn = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.fileMenuDropDown = new System.Windows.Forms.ToolStripDropDownButton();
+            this.newToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.loadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.hobbiesRTB = new System.Windows.Forms.RichTextBox();
+            this.goalsRTB = new System.Windows.Forms.RichTextBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.challengesRTB = new System.Windows.Forms.RichTextBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.helpsRTB = new System.Windows.Forms.RichTextBox();
+            this.label24 = new System.Windows.Forms.Label();
+            this.additionalRTB = new System.Windows.Forms.RichTextBox();
+            this.label27 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
+            this.toolStrip1.SuspendLayout();
+            this.groupBox5.SuspendLayout();
             this.SuspendLayout();
             // 
             // firstNameTxt
@@ -306,7 +324,7 @@
             this.groupBox1.Controls.Add(this.ageTxt);
             this.groupBox1.Controls.Add(this.lastNameTxt);
             this.groupBox1.Controls.Add(this.firstNameTxt);
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Location = new System.Drawing.Point(12, 28);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(477, 184);
             this.groupBox1.TabIndex = 37;
@@ -353,12 +371,28 @@
             this.groupBox2.Controls.Add(this.parentAddressZipTxt);
             this.groupBox2.Controls.Add(this.ParentAddressCityTxt);
             this.groupBox2.Controls.Add(this.parentAddressStateTxt);
-            this.groupBox2.Location = new System.Drawing.Point(12, 202);
+            this.groupBox2.Location = new System.Drawing.Point(12, 218);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(644, 264);
             this.groupBox2.TabIndex = 38;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Parent/Guardian Information";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(6, 142);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(77, 13);
+            this.label19.TabIndex = 44;
+            this.label19.Text = "Address Line 2";
+            // 
+            // parentAddress2Txt
+            // 
+            this.parentAddress2Txt.Location = new System.Drawing.Point(6, 158);
+            this.parentAddress2Txt.Name = "parentAddress2Txt";
+            this.parentAddress2Txt.Size = new System.Drawing.Size(348, 20);
+            this.parentAddress2Txt.TabIndex = 12;
             // 
             // label17
             // 
@@ -443,7 +477,7 @@
             this.groupBox3.Controls.Add(this.emergRelationshipTxt);
             this.groupBox3.Controls.Add(this.emergLastNameTxt);
             this.groupBox3.Controls.Add(this.emergFirstNameTxt);
-            this.groupBox3.Location = new System.Drawing.Point(12, 472);
+            this.groupBox3.Location = new System.Drawing.Point(12, 488);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(644, 121);
             this.groupBox3.TabIndex = 43;
@@ -519,12 +553,22 @@
             this.groupBox4.Controls.Add(this.groupKTChk);
             this.groupBox4.Controls.Add(this.groupSSTChk);
             this.groupBox4.Controls.Add(this.groupGWChk);
-            this.groupBox4.Location = new System.Drawing.Point(12, 599);
+            this.groupBox4.Location = new System.Drawing.Point(12, 615);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(643, 75);
             this.groupBox4.TabIndex = 44;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Interested Groups";
+            // 
+            // groupKTChk
+            // 
+            this.groupKTChk.AutoSize = true;
+            this.groupKTChk.Location = new System.Drawing.Point(306, 20);
+            this.groupKTChk.Name = "groupKTChk";
+            this.groupKTChk.Size = new System.Drawing.Size(116, 17);
+            this.groupKTChk.TabIndex = 25;
+            this.groupKTChk.Text = "Kirkland Thursdays";
+            this.groupKTChk.UseVisualStyleBackColor = true;
             // 
             // groupSSTChk
             // 
@@ -546,59 +590,167 @@
             this.groupGWChk.Text = "Greenwood Wednesdays";
             this.groupGWChk.UseVisualStyleBackColor = true;
             // 
-            // groupKTChk
+            // toolStrip1
             // 
-            this.groupKTChk.AutoSize = true;
-            this.groupKTChk.Location = new System.Drawing.Point(306, 20);
-            this.groupKTChk.Name = "groupKTChk";
-            this.groupKTChk.Size = new System.Drawing.Size(116, 17);
-            this.groupKTChk.TabIndex = 25;
-            this.groupKTChk.Text = "Kirkland Thursdays";
-            this.groupKTChk.UseVisualStyleBackColor = true;
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripSeparator1,
+            this.fileMenuDropDown});
+            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(1164, 25);
+            this.toolStrip1.TabIndex = 47;
+            this.toolStrip1.Text = "toolStrip1";
             // 
-            // label19
+            // toolStripSeparator1
             // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(6, 142);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(77, 13);
-            this.label19.TabIndex = 44;
-            this.label19.Text = "Address Line 2";
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
             // 
-            // parentAddress2Txt
+            // fileMenuDropDown
             // 
-            this.parentAddress2Txt.Location = new System.Drawing.Point(6, 158);
-            this.parentAddress2Txt.Name = "parentAddress2Txt";
-            this.parentAddress2Txt.Size = new System.Drawing.Size(348, 20);
-            this.parentAddress2Txt.TabIndex = 12;
+            this.fileMenuDropDown.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.fileMenuDropDown.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.newToolStripMenuItem,
+            this.saveToolStripMenuItem,
+            this.loadToolStripMenuItem});
+            this.fileMenuDropDown.Image = ((System.Drawing.Image)(resources.GetObject("fileMenuDropDown.Image")));
+            this.fileMenuDropDown.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.fileMenuDropDown.Name = "fileMenuDropDown";
+            this.fileMenuDropDown.Size = new System.Drawing.Size(38, 22);
+            this.fileMenuDropDown.Text = "File";
             // 
-            // saveBtn
+            // newToolStripMenuItem
             // 
-            this.saveBtn.Location = new System.Drawing.Point(12, 717);
-            this.saveBtn.Name = "saveBtn";
-            this.saveBtn.Size = new System.Drawing.Size(84, 24);
-            this.saveBtn.TabIndex = 45;
-            this.saveBtn.Text = "Save";
-            this.saveBtn.UseVisualStyleBackColor = true;
-            this.saveBtn.Click += new System.EventHandler(this.saveBtn_Click);
+            this.newToolStripMenuItem.Name = "newToolStripMenuItem";
+            this.newToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.newToolStripMenuItem.Text = "New";
+            this.newToolStripMenuItem.Click += new System.EventHandler(this.newToolStripMenuItem_Click);
             // 
-            // button1
+            // saveToolStripMenuItem
             // 
-            this.button1.Location = new System.Drawing.Point(107, 717);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(84, 24);
-            this.button1.TabIndex = 46;
-            this.button1.Text = "Load";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.saveToolStripMenuItem.Text = "Save...";
+            this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
+            // 
+            // loadToolStripMenuItem
+            // 
+            this.loadToolStripMenuItem.Name = "loadToolStripMenuItem";
+            this.loadToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.loadToolStripMenuItem.Text = "Load...";
+            this.loadToolStripMenuItem.Click += new System.EventHandler(this.loadToolStripMenuItem_Click);
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.additionalRTB);
+            this.groupBox5.Controls.Add(this.label27);
+            this.groupBox5.Controls.Add(this.challengesRTB);
+            this.groupBox5.Controls.Add(this.label23);
+            this.groupBox5.Controls.Add(this.helpsRTB);
+            this.groupBox5.Controls.Add(this.label24);
+            this.groupBox5.Controls.Add(this.goalsRTB);
+            this.groupBox5.Controls.Add(this.label22);
+            this.groupBox5.Controls.Add(this.hobbiesRTB);
+            this.groupBox5.Controls.Add(this.label20);
+            this.groupBox5.Location = new System.Drawing.Point(671, 28);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(481, 874);
+            this.groupBox5.TabIndex = 44;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Getting to Know You";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(7, 20);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(285, 13);
+            this.label20.TabIndex = 0;
+            this.label20.Text = "What activities, hobbies, or interests does your child enjoy?";
+            // 
+            // hobbiesRTB
+            // 
+            this.hobbiesRTB.Location = new System.Drawing.Point(10, 37);
+            this.hobbiesRTB.Name = "hobbiesRTB";
+            this.hobbiesRTB.Size = new System.Drawing.Size(465, 147);
+            this.hobbiesRTB.TabIndex = 26;
+            this.hobbiesRTB.Text = "";
+            // 
+            // goalsRTB
+            // 
+            this.goalsRTB.Location = new System.Drawing.Point(10, 204);
+            this.goalsRTB.Name = "goalsRTB";
+            this.goalsRTB.Size = new System.Drawing.Size(465, 147);
+            this.goalsRTB.TabIndex = 27;
+            this.goalsRTB.Text = "";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(7, 187);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(404, 13);
+            this.label22.TabIndex = 2;
+            this.label22.Text = "What are some goals you have for child while enrolled with Wheelhouse Workshop?";
+            // 
+            // challengesRTB
+            // 
+            this.challengesRTB.Location = new System.Drawing.Point(10, 539);
+            this.challengesRTB.Name = "challengesRTB";
+            this.challengesRTB.Size = new System.Drawing.Size(465, 147);
+            this.challengesRTB.TabIndex = 29;
+            this.challengesRTB.Text = "";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(7, 522);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(381, 13);
+            this.label23.TabIndex = 6;
+            this.label23.Text = "Does your child have any specific challenges you would like us to know about?";
+            // 
+            // helpsRTB
+            // 
+            this.helpsRTB.Location = new System.Drawing.Point(10, 372);
+            this.helpsRTB.Name = "helpsRTB";
+            this.helpsRTB.Size = new System.Drawing.Size(465, 147);
+            this.helpsRTB.TabIndex = 28;
+            this.helpsRTB.Text = "";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(7, 355);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(254, 13);
+            this.label24.TabIndex = 4;
+            this.label24.Text = "What helps your child if they feel frustrated or angry?";
+            // 
+            // additionalRTB
+            // 
+            this.additionalRTB.Location = new System.Drawing.Point(10, 706);
+            this.additionalRTB.Name = "additionalRTB";
+            this.additionalRTB.Size = new System.Drawing.Size(465, 147);
+            this.additionalRTB.TabIndex = 30;
+            this.additionalRTB.Text = "";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(7, 689);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(108, 13);
+            this.label27.TabIndex = 8;
+            this.label27.Text = "Additional Information";
             // 
             // IntakeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(812, 753);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.saveBtn);
+            this.ClientSize = new System.Drawing.Size(1164, 914);
+            this.Controls.Add(this.groupBox5);
+            this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
@@ -613,7 +765,12 @@
             this.groupBox3.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
+            this.toolStrip1.ResumeLayout(false);
+            this.toolStrip1.PerformLayout();
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -672,8 +829,23 @@
         private System.Windows.Forms.CheckBox groupKTChk;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.TextBox parentAddress2Txt;
-        private System.Windows.Forms.Button saveBtn;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ToolStrip toolStrip1;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ToolStripDropDownButton fileMenuDropDown;
+        private System.Windows.Forms.ToolStripMenuItem newToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem saveToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem loadToolStripMenuItem;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.RichTextBox additionalRTB;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.RichTextBox challengesRTB;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.RichTextBox helpsRTB;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.RichTextBox goalsRTB;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.RichTextBox hobbiesRTB;
+        private System.Windows.Forms.Label label20;
     }
 }
 

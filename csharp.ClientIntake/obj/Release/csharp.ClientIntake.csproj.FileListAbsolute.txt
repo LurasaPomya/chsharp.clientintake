@@ -1,0 +1,13 @@
+C:\Users\jemcg\Source\Workspaces\DecDev\csharp.clientintake\csharp.ClientIntake\bin\Release\csharp.ClientIntake.exe.config
+C:\Users\jemcg\Source\Workspaces\DecDev\csharp.clientintake\csharp.ClientIntake\bin\Release\csharp.ClientIntake.exe
+C:\Users\jemcg\Source\Workspaces\DecDev\csharp.clientintake\csharp.ClientIntake\bin\Release\csharp.ClientIntake.pdb
+C:\Users\jemcg\Source\Workspaces\DecDev\csharp.clientintake\csharp.ClientIntake\obj\Release\csharp.ClientIntake.IntakeForm.resources
+C:\Users\jemcg\Source\Workspaces\DecDev\csharp.clientintake\csharp.ClientIntake\obj\Release\csharp.ClientIntake.Properties.Resources.resources
+C:\Users\jemcg\Source\Workspaces\DecDev\csharp.clientintake\csharp.ClientIntake\obj\Release\csharp.ClientIntake.csproj.GenerateResource.Cache
+C:\Users\jemcg\Source\Workspaces\DecDev\csharp.clientintake\csharp.ClientIntake\obj\Release\csharp.ClientIntake.exe
+C:\Users\jemcg\Source\Workspaces\DecDev\csharp.clientintake\csharp.ClientIntake\obj\Release\csharp.ClientIntake.pdb
+C:\Users\jemcg\Source\Workspaces\DecDev\csharp.clientintake\csharp.ClientIntake\bin\Release\csharp.ClientIntake.exe.manifest
+C:\Users\jemcg\Source\Workspaces\DecDev\csharp.clientintake\csharp.ClientIntake\bin\Release\csharp.ClientIntake.application
+C:\Users\jemcg\Source\Workspaces\DecDev\csharp.clientintake\csharp.ClientIntake\obj\Release\csharp.ClientIntake.csprojResolveAssemblyReference.cache
+C:\Users\jemcg\Source\Workspaces\DecDev\csharp.clientintake\csharp.ClientIntake\obj\Release\csharp.ClientIntake.exe.manifest
+C:\Users\jemcg\Source\Workspaces\DecDev\csharp.clientintake\csharp.ClientIntake\obj\Release\csharp.ClientIntake.application
