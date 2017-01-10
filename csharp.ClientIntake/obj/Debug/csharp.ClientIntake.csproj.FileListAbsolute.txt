@@ -20,3 +20,4 @@ C:\Users\jemcg\Source\Workspaces\DecDev\csharp.clientintake\csharp.ClientIntake\
 C:\Users\jemcg\Source\Workspaces\DecDev\csharp.clientintake\csharp.ClientIntake\bin\Debug\csharp.ClientIntake.application
 C:\Users\jemcg\Source\Workspaces\DecDev\csharp.clientintake\csharp.ClientIntake\obj\Debug\csharp.ClientIntake.exe.manifest
 C:\Users\jemcg\Source\Workspaces\DecDev\csharp.clientintake\csharp.ClientIntake\obj\Debug\csharp.ClientIntake.application
+C:\Users\jemcg\Source\Workspaces\DecDev\csharp.clientintake\csharp.ClientIntake\obj\Debug\csharp.ClientIntake.TrustInfo.xml

@@ -51,10 +51,6 @@ namespace csharp.ClientIntake
         private string additionalInformation; // Additional Information (If you would like to share any mental health or medical diagnosis or history; please feel free to do so here)
 
         
-        
-
-
-
         // Now we have our getters and setters. Not going to document all these unless they are doing more than setting and getting values.
         public string FirstName
         {

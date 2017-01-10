@@ -7,14 +7,14 @@
     <framework targetVersion="4.5.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="csharp.ClientIntake.exe.manifest" size="3524">
+    <dependentAssembly dependencyType="install" codebase="csharp.ClientIntake.exe.manifest" size="6915">
       <assemblyIdentity name="csharp.ClientIntake.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>UpGYPqUYJq55vW+ykqOQUA1M6brkZKdVC2Ha9Qc5gZM=</dsig:DigestValue>
+        <dsig:DigestValue>fIn2kCwHw6Aovvm2OWZghSTAXmDL23S/jOfumQsMTKE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
